@@ -25,9 +25,3 @@ The public Underwater Crack Detection Dataset used in this study is available at
 To train the HAIS-SegFormer model on your custom dataset or the public underwater dataset, run:
 ```bash
 python train.py --data_path ./dataset --epochs 100 --batch_size 8 --lr 1e-4
-### 2. Evaluation
-To evaluate the model and calculate mIoU and mPA:
-python test.py --weights ./weights/hais_best.pth --data_path ./dataset
-
-##📧 Contact
-If you have any questions, please contact: 222408855063@zust.edu.cn
