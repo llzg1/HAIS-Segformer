@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation of the paper:
 Underwater crack detection is essential for the structural health monitoring of concrete dams. This study proposes **HAIS-SegFormer**, a lightweight network based on a Mix Transformer backbone. It introduces a tandem Hybrid Attention mechanism (CoordAtt + CBAM) and a bio-inspired Feature Inhibition Module (FIM) to actively suppress high-frequency noise such as water plants. Our model achieves a superior balance between segmentation accuracy (71.66% mIoU) and inference efficiency (73 FPS, 3.80M parameters).
 
 ## 🚀 Architecture
-*(You can upload your Figure 1 here later and link it)*
+
 
 ## 🛠️ Requirements
 - Python 3.8+
